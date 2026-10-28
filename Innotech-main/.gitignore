@@ -1,0 +1,12 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+data/
+models/*
+!models/yolov8n.onnx
+!models/license-plate-yolov8n.onnx
+*.egg-info/
+
+samples/videos/
